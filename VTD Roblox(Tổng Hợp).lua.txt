@@ -15,7 +15,7 @@ msg.AnchorPoint = Vector2.new(0.5,0.5)
 msg.Position = UDim2.new(0.5,0,0.5,0)
 msg.Size = UDim2.new(0,600,0,120)
 msg.BackgroundTransparency = 1
-msg.Text = "⚡ VTD Roblox ⚡"
+msg.Text = "⚡ vietnam⚡"
 msg.TextColor3 = Color3.fromRGB(0,255,255)
 msg.Font = Enum.Font.GothamBlack
 msg.TextScaled = true
@@ -35,7 +35,7 @@ local function createFirework()
     part.Parent = workspace
 
     local firework = Instance.new("ParticleEmitter")
-    firework.Texture = "rbxassetid://243660364"
+    firework.Texture = "rbxassetid://90458052069700"
     firework.Rate = 50
     firework.Lifetime = NumberRange.new(1)
     firework.Speed = NumberRange.new(10)
@@ -91,7 +91,7 @@ end)
 local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
 repeat task.wait() until game:IsLoaded()
 local Window = Fluent:CreateWindow({
-    Title="VTD Roblox 2.4.9",
+    Title="vietnam2.4.9",
     SubTitle="Blox Fruit",
     TabWidth=157,
     Size=UDim2.fromOffset(450,300),
@@ -112,7 +112,7 @@ local Tabs = {
 }
 
 -- Tab 0
-Tabs.Main0:AddButton({Title="Discord",Description="VTD Roblox Community",Callback=function() setclipboard("https://discord.gg/qEkEHgkQ") end})
+Tabs.Main0:AddButton({Title="Discord",Description="vietnamCommunity",Callback=function() setclipboard("https://discord.gg/qEkEHgkQ") end})
 Tabs.Main0:AddButton({Title="Youtuber",Description="VTD Roblox",Callback=function() setclipboard("https://youtube.com/@vtd.roblox1?si=A5NM7LD-DIOE3a_0") end})
 
 -- Tab 1
@@ -256,7 +256,7 @@ Tabs.Main5:AddButton({Title="Tạo Platform lớn", Description="Tạo platform 
     end
 end})
 
-print("VTD Roblox GUI loaded successfully!")
+print("vietnamGUI loaded successfully!")
 -- Tab 1: Script Blox Fruit
 Tabs.Main1:AddButton({Title="Redz Hub", Callback=function()
     local Settings={JoinTeam="Pirates", Translator=true}
